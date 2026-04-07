@@ -80,4 +80,5 @@ If you use this code or data in your research, please cite both the paper and th
 
 * Paper: Oh, S.-Y., Yeh, S.-W., & Kirtman, B. P. (2026). Diagnosis of the contribution of internal climate variability to global surface temperature projection under future warming. Geophysical Research Letters, (In Press).
 
-* Code: Oh, S.-Y. (2026). Code for: Diagnosis of the contribution of internal climate variability to global surface temperature projection under future warming. Zenodo. https://www.google.com/search?q=https://doi.org/10.5281/zenodo.19456453
+* Code: Oh, S.-Y. (2026). Code for: Diagnosis of the contribution of internal climate variability to global surface temperature projection under future warming. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19456453.svg)](https://doi.org/10.5281/zenodo.19456453)
