@@ -64,8 +64,8 @@ After setting up the environment and downloading the required raw data into data
 2. Generate Figures:
    ```Bash
    python scripts/figure1.py
-   python scripts/figure2r.py
-   python scripts/figure3s.py
+   python scripts/figure2.py
+   python scripts/figure3.py
    python scripts/figure4.py
    python scripts/figure5.py
    ```
