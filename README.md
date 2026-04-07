@@ -63,11 +63,11 @@ After setting up the environment and downloading the required raw data into data
 
 2. Generate Figures:
    ```Bash
-   python scripts/fig1_gst_variance.py
-   python scripts/fig2_spatial_var.py
-   python scripts/fig3_seof_patterns.py
-   python scripts/fig4_regional_var.py
-   python scripts/fig5_mechanism.py
+   python scripts/figure1.py
+   python scripts/figure2r.py
+   python scripts/figure3s.py
+   python scripts/figure4.py
+   python scripts/figure5.py
    ```
 
 All generated plots will be saved in the figures/ directory.
