@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it using the preferred-citation below."
+authors:
+  - family-names: "Oh"
+    given-names: "Sae-Yoon"
+    orcid: "https://orcid.org/0000-0001-8270-0075"
+  - family-names: "Yeh"
+    given-names: "Sang-Wook"
+  - family-names: "Kirtman"
+    given-names: "Benjamin P."
+title: "ICV-GST-Projections: Code for analyzing ICV contributions to GST projections"
+version: 1.0.0
+date-released: "2026-04-07"
+url: "https://github.com/osaeyoon/ICV-GST-Projections"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Oh"
+      given-names: "Sae-Yoon"
+    - family-names: "Yeh"
+      given-names: "Sang-Wook"
+    - family-names: "Kirtman"
+      given-names: "Benjamin P."
+  title: "Diagnosis of the contribution of internal climate variability to global surface temperature projection under future warming"
+  journal: "Geophysical Research Letters"
+  year: 2026
+  # doi: "10.1029/XXXXXXXXX" 
