@@ -48,27 +48,27 @@ To ensure reproducibility, a Conda environment file (`environment.yml`) is provi
    ```
 
 2. Create and activate the Conda environment:
-  ```Bash
-  conda env create -f environment.yml
-  conda activate icv_gst_env
-  ```
+   ```Bash
+   conda env create -f environment.yml
+   conda activate icv_gst_env
+   ```
 
 ## How to Run
 After setting up the environment and downloading the required raw data into data/raw/, execute the scripts in the following order to reproduce the analysis and figures:
 
 1. Calculate Snapshot EOFs (SEOF):
-  ```Bash
-  python scripts/calc_seof.py
-  ```
+   ```Bash
+   python scripts/calc_seof.py
+   ```
 
 2. Generate Figures:
-  ```Bash
-  python scripts/fig1_gst_variance.py
-  python scripts/fig2_spatial_var.py
-  python scripts/fig3_seof_patterns.py
-  python scripts/fig4_regional_var.py
-  python scripts/fig5_mechanism.py
-  ```
+   ```Bash
+   python scripts/fig1_gst_variance.py
+   python scripts/fig2_spatial_var.py
+   python scripts/fig3_seof_patterns.py
+   python scripts/fig4_regional_var.py
+   python scripts/fig5_mechanism.py
+   ```
 
 All generated plots will be saved in the figures/ directory.
 
