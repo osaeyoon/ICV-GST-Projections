@@ -29,6 +29,7 @@ Internal climate variability (ICV) is a critical source of uncertainty in global
 │   ├── fig4_regional_var.py   # Script to generate Figure 4
 │   └── fig5_mechanism.py      # Script to generate Figure 5
 └── figures/                   # Output directory for high-resolution figures
+```
 
 ## Data Availability
 Due to size constraints, the raw climate data files are not included in this repository. To fully reproduce the analysis, please download the datasets from their respective sources and place them in the `data/raw/` directory:
@@ -44,11 +45,13 @@ To ensure reproducibility, a Conda environment file (`environment.yml`) is provi
    ```bash
    git clone [https://github.com/osaeyoon/ICV-GST-Projections.git](https://github.com/osaeyoon/ICV-GST-Projections.git)
    cd ICV-GST-Projections
+   ```
 
 2. Create and activate the Conda environment:
   ```Bash
   conda env create -f environment.yml
   conda activate icv_gst_env
+  ```
 
 ## How to Run
 After setting up the environment and downloading the required raw data into data/raw/, execute the scripts in the following order to reproduce the analysis and figures:
@@ -56,14 +59,17 @@ After setting up the environment and downloading the required raw data into data
 1. Calculate Snapshot EOFs (SEOF):
   ```Bash
   python scripts/calc_seof.py
-  Generate Figures:
+  ```
 
+2. Generate Figures:
   ```Bash
   python scripts/fig1_gst_variance.py
   python scripts/fig2_spatial_var.py
   python scripts/fig3_seof_patterns.py
   python scripts/fig4_regional_var.py
   python scripts/fig5_mechanism.py
+  ```
+
 All generated plots will be saved in the figures/ directory.
 
 ## License
