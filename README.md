@@ -1,6 +1,6 @@
 # ICV-GST-Projections
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19456453.svg)](https://doi.org/10.5281/zenodo.19456453)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the data processing, analysis, and visualization scripts required to reproduce the findings in the paper:
